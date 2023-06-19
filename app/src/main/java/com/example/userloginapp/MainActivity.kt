@@ -107,6 +107,7 @@ class MainActivity : AppCompatActivity() {
 
         val intent = Intent(this, UserScreen::class.java)
         startActivity(intent)
+        finish()
     }
 
     private fun checkIfUserLoggedIn() {
