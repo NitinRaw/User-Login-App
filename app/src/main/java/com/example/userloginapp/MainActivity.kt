@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
         submitBtn.setOnClickListener {
 
             /**
@@ -130,7 +131,8 @@ class MainActivity : AppCompatActivity() {
      * Returns true if Given string is of type Email Address
      */
     fun isEmailValid(email: String): Boolean {
-        return Patterns.EMAIL_ADDRESS.matcher(email).matches()
+        val emailRegex = Regex("[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{1,}")
+        return email.matches(emailRegex)
     }
 
 

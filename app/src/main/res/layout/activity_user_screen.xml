@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#03A9F4"
+    android:background="#2196F3"
     tools:context=".UserScreen">
 
     <androidx.cardview.widget.CardView
@@ -12,21 +12,24 @@
         android:layout_width="match_parent"
         android:layout_height="280dp"
 
+
         android:layout_margin="20dp"
+        android:padding="3dp"
 
         app:cardCornerRadius="50dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-
-
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="User Details"
+            android:layout_gravity="center_horizontal"
             android:textAlignment="center"
+            android:layout_marginTop="3dp"
             android:textColor="#03A9F4"
             android:textSize="30sp"
             android:textStyle="bold"
@@ -38,6 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
+            android:gravity="center"
             android:layout_marginTop="100dp"
             android:orientation="horizontal"
 
@@ -55,7 +59,7 @@
 
             <TextView
                 android:id="@+id/name_tv"
-                android:layout_width="match_parent"
+                android:layout_width="0dp"
                 android:layout_height="30dp"
                 android:layout_gravity="start"
                 android:layout_marginRight="5dp"
@@ -74,6 +78,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
+
+            android:gravity="center"
 
             android:layout_marginTop="140dp"
 
@@ -113,6 +119,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
+
+            android:gravity="center"
 
             android:layout_marginTop="180dp"
 
@@ -164,71 +172,78 @@
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
 
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="50dp"-->
-    <!--        android:orientation="horizontal"-->
-
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-
-    <!--        >-->
-
-    <!--        <TextView-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:text="Name :"-->
-    <!--            android:textSize="30sp"-->
-    <!--            android:textStyle="bold"-->
-    <!--            android:layout_marginRight="10dp"-->
-    <!--            android:layout_marginLeft="5dp"-->
-    <!--            />-->
-
-    <!--        <TextView-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:text="Nitin Pandey"-->
-    <!--            android:layout_weight="1"-->
-    <!--            android:textSize="30sp"-->
-    <!--            />-->
 
 
-    <!--    </LinearLayout>-->
 
 
-    <!--    <LinearLayout-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="50dp"-->
-    <!--        android:orientation="horizontal"-->
 
-    <!--        app:layout_constraintTop_toTopOf="parent"-->
-    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--        app:layout_constraintRight_toRightOf="parent"-->
-
-    <!--        >-->
-
-    <!--        <TextView-->
-    <!--            android:layout_width="wrap_content"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:text="Name :"-->
-    <!--            android:textSize="30sp"-->
-    <!--            android:textStyle="bold"-->
-    <!--            android:layout_marginRight="10dp"-->
-    <!--            android:layout_marginLeft="5dp"-->
-    <!--            />-->
-
-    <!--        <TextView-->
-    <!--            android:layout_width="match_parent"-->
-    <!--            android:layout_height="wrap_content"-->
-    <!--            android:text="Nitin Pandey"-->
-    <!--            android:layout_weight="1"-->
-    <!--            android:textSize="30sp"-->
-    <!--            />-->
-
-
-    <!--    </LinearLayout>-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/intent_btn"-->
+    <!--        style="@style/Widget.Material3.Button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="center_horizontal"-->
+    <!--        android:layout_marginTop="10dp"-->
+    <!--        android:backgroundTint="#850933"-->
+
+    <!--        android:text="Open Intent"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/logout_btn"-->
+    <!--        app:layout_constraintVertical_bias="0.0" />-->
+
